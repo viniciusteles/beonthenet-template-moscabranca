@@ -1,0 +1,73 @@
+/*
+Colors:
+
+Castanho-marrom:          #B54F4C;
+Azul esverdeado:          #226475;
+
+
+*/
+
+
+
+html * {
+  color:                  #226475;
+}
+
+html {
+  background:             #2F91C2 url(../images/site_bg.jpg) repeat-y top center;
+}
+
+body {
+/*  background:             #FFF;*/
+}
+
+
+/* Header */
+#header {
+  background:             transparent url(../images/header_bg2.png) no-repeat bottom center;
+}
+
+#logo_screen {
+  background:             transparent url(../images/aro_logo.png) no-repeat top left;
+}
+
+#logo_screen a, #logo_screen img {
+  color:                  #FFF;
+}
+
+#header ul {
+  background:             transparent url(../images/menu_bg.png) no-repeat center;
+}
+
+#header li.current a {
+  color:                  #B54F4C;
+  background:             #FFF url(../images/tab_current.png) repeat-x bottom center;
+}
+/* /Header */
+
+
+/* Main content */
+#main_content {
+  background:             transparent url(../images/main_content_bg.png) repeat-y center 100px;
+}
+
+#thumbnails h3 {
+  background:             #FFF;
+  opacity:                .85;
+}
+
+#thumbnails h4, #thumbnails h4 a, #thumbnails label {
+  color:                  #FFF;
+}
+/* /Main content */
+
+
+/* Footer */
+#footer {
+  background:             transparent url(../images/footer_bg.png) no-repeat top center;
+}
+
+#footer * {
+  color:                  #FFF;
+}
+/* /Footer */

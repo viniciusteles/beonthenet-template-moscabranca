@@ -1,0 +1,42 @@
+/* Style sheet with conditions for Internet Explorer. */
+
+hr {
+  margin:                 -8px 0 -7px 0;
+}
+
+
+#header {
+  background-image:       url(../images/header_bg_ie.png);
+}
+
+#logo_screen a {
+  line-height:            .7em;
+}
+
+
+#main_content {
+  background-image:       url(../images/main_content_bg_ie.png);
+}
+
+#thumbnails h3 {
+  filter:                 alpha(opacity=85);  
+}
+
+
+#footer {
+  background-image:       url(../images/footer_bg_ie.png);
+}
+
+
+
+/* Selection */
+#all_pictures label, #cart_items label, 
+#selected_pictures label {
+/*  filter:                 alpha(opacity=70);*/
+}
+
+.moved_to_cart {
+/*  filter:                 alpha(opacity=30);*/
+}
+
+

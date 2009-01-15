@@ -1,0 +1,106 @@
+html * {
+    list-style-type:        none;
+    font:                   normal normal normal 1em/1em "Chaparral Pro", "Helvetica Neue", Helvetica, "Lucida Grande", Arial, sans-serif;
+}
+
+h1, #thumbnails h4 a, #thumbnails label {
+  font:                   normal normal normal 200%/1em "Gill Sans", "Lucida Sans", "Lucida Grande", "Helvetica Neue", Helvetica, Tahoma, sans-serif;
+}
+
+h1 {  
+  font-size:                200%;
+  text-align:               center;
+  text-transform:           uppercase;
+  letter-spacing:           -.05em;
+}
+
+
+
+/* Header */
+#logo_screen {
+  line-height:              .5em;
+}
+
+#logo_screen a {
+  line-height:              .5em;
+}
+
+#logo_screen {
+  font-size:                460%;
+  text-transform:           uppercase;
+  letter-spacing:           -.05em;
+}
+
+#logo_screen a {
+  font-weight:              bold;
+  text-decoration:          none;
+}
+
+#slogan {
+  font-weight:              bold;
+  font-size:                145%;
+}
+
+#header ul {
+  text-align:               center;
+}
+
+#header li {
+  font-size:                120%;
+}
+
+#header li a {
+  text-decoration:          none;
+}
+
+#global_search input {
+  font-style:               italic;
+  font-size:                85%;
+  line-height:              18px;
+}
+/* Header */
+
+
+/* Main content */
+#thumbnails h3 {
+  font-size:                115%;
+  line-height:              .5em;
+}
+
+#thumbnails h3, #thumbnails h3 a {
+  line-height:              .85em;  
+}
+
+#thumbnails h3 a, #thumbnails h4 a, 
+#thumbnails div a {
+  text-decoration:          none;
+}
+
+#thumbnails h4 a {
+  font-size:                65%;
+}
+
+#thumbnails div {
+  text-align:               center;
+}
+
+#thumbnails label {
+  font-size:                80%;
+}
+/* /Main content */
+
+
+/* Footer */
+#footer * {
+  text-align:               center;
+  line-height:              1.5em;
+}
+
+#footer p, #footer h5 {
+  font-size:                85%;
+}
+
+#footer p, #footer h6 {
+  font-size:                80%;
+}
+/* /Footer */
