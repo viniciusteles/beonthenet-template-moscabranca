@@ -1,3 +1,6 @@
+/*@import url(http://www.princexml.com/fonts/larabie/index.css) all;*/
+/*@import url(http://www.princexml.com/fonts/steffmann/index.css) all;*/
+
 html * {
     list-style-type:        none;
     font:                   normal normal normal 1em/1em "Chaparral Pro", "Helvetica Neue", Helvetica, "Lucida Grande", Arial, sans-serif;
@@ -39,6 +42,7 @@ h1 {
 #slogan {
   font-weight:              bold;
   font-size:                145%;
+  line-height:              .8em;
 }
 
 #header ul {
@@ -77,7 +81,7 @@ h1 {
 }
 
 #thumbnails h4 a {
-  font-size:                65%;
+  font-size:                70%;
 }
 
 #thumbnails div {

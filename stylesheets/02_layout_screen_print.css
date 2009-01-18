@@ -54,9 +54,11 @@ h1 {
 }
 
 #slogan {
-  bottom:                 89px;
+  width:                  300px;
+  bottom:                 92px;
   right:                  50px;
   z-index:                3;
+/*    border:1px solid blue;*/
 }
 /* /Logo */
 
@@ -148,13 +150,14 @@ display:inline-block;
   z-index:                1;
 }
 
-#thumbnails h4 {
-  bottom:                 2px;
-  left:                   44px;
+#thumbnails h4, #thumbnails label {
+  bottom:                 -13px;
+  right:                  44px;
   z-index:                1;
 }
 
-#thumbnails div {
+#thumbnails div, 
+body.videos #thumbnails img {
   width:                  240px;
   bottom:                 0;
 }
@@ -162,11 +165,6 @@ display:inline-block;
 #thumbnails img {
   display:                block;
   margin:                 auto;
-}
-
-#thumbnails label {
-  right:                  42px;
-  bottom:                 0;
 }
 
 #thumbnails .empty {

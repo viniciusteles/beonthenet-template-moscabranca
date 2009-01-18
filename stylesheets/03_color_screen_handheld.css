@@ -1,8 +1,8 @@
 /*
 Colors:
 
-Castanho-marrom:          #B54F4C;
 Azul esverdeado:          #226475;
+Castanho-avermelhado:     #B54F4C;
 
 
 */
@@ -17,8 +17,8 @@ html {
   background:             #2F91C2 url(../images/site_bg.jpg) repeat-y top center;
 }
 
-body {
-/*  background:             #FFF;*/
+h1 {
+  color:                  #962D3E;
 }
 
 
@@ -40,7 +40,7 @@ body {
 }
 
 #header li.current a {
-  color:                  #B54F4C;
+  color:                  #962D3E;
   background:             #FFF url(../images/tab_current.png) repeat-x bottom center;
 }
 /* /Header */
@@ -57,7 +57,7 @@ body {
 }
 
 #thumbnails h4, #thumbnails h4 a, #thumbnails label {
-  color:                  #FFF;
+  color:                  #226475;
 }
 /* /Main content */
 
