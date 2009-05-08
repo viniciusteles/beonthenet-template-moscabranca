@@ -156,9 +156,12 @@ display:inline-block;
   z-index:                1;
 }
 
-#thumbnails div, 
-body.videos #thumbnails img {
+#thumbnails div {
   width:                  240px;
+  bottom:                 0;
+}
+.videos #thumbnails img {
+  max-width:              240px;
   bottom:                 0;
 }
 

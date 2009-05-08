@@ -22,6 +22,10 @@ hr {
   filter:                 alpha(opacity=85);  
 }
 
+.videos #thumbnails img {
+  width:                  expression(this.width > 240 ? "240px" : true);
+}
+
 
 #footer {
   background-image:       url(../images/footer_bg_ie.png);
