@@ -104,12 +104,12 @@ h1 {
   font-size:                85%;
 }
 
-#footer h1, #footer h2 {
+#footer h2, #footer h3 {
   font-size:							  82%;
   text-transform:           none;
 }
 
-#footer h1, #footer h1 a {
+#footer h2, #footer h2 a {
   font-family:              "Gill Sans", "Lucida Sans", "Lucida Grande", "Helvetica Neue", Helvetica, Tahoma, sans-serif;
   text-decoration:          none;
 }
