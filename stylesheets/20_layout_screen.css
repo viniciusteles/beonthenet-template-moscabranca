@@ -161,7 +161,8 @@ display:inline-block;
   bottom:                 0;
 }
 .videos #thumbnails img {
-  max-width:              240px;
+/*  max-width:              240px;*/
+  width:                  240px;
   bottom:                 0;
 }
 
